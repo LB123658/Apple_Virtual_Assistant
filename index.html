@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="Description" content="A 100% free, online HTML and CSS editor that lets you download your files and preview them as websites." />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <title>Bob, the virtual assistant</title>
+<link rel='icon' href='https://upload.wikimedia.org/wikipedia/en/8/8e/AppleSiriIcon2017.png' type='image/png'/ > 
+<style>
+* {
+font-family: 'Ubuntu', sans-serif;
+}
+body {
+background: #3f3e3e;
+}
+#title {
+position: absolute;
+top: 0px;
+left: 10px;
+color: #3f3e3e;
+user-select: none;
+font-size: 30px;
+}
+#top {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100px;
+background: #ffc000;
+}
+.download {
+background: transparent;
+height: 70px;
+width: 200px;
+border-radius: 7px;
+color: #ffd152;
+border: 1px solid #ffd152;
+cursor: pointer;
+font-size: 23px;
+}
+.download:hover {
+border: 1px solid #ffc000;
+color: #ffc000;
+}
+#left {
+position: absolute;
+top: 50%;
+right: 51%;
+}
+#right {
+position: absolute;
+top: 50%;
+left: 51%;
+}
+#amount {
+position: absolute;
+bottom: 30%;
+text-align: center;
+left: 0px;
+width: 100%;
+user-select: none;
+cursor: default;
+font-size: 15px;
+color: #ffc000;   
+}
+   
+#download {
+background: #ffd152;
+height: 70px;
+width: 200px;
+border-radius: 7px;
+color: #3f3e3e;
+border: 1px solid #ffd152;
+cursor: pointer;
+font-size: 23px;
+position: absolute;
+top: 50%;
+right: 51%;  
+}
+#download:hover {
+background: #ffc000;
+}
+html {
+scroll-behavior: smooth;
+}
+#how {
+position: absolute;
+top: 100%;
+left: 10%;
+width: 80%;
+font-size: 25px;
+color: #ffc000;
+}
+</style>
+</head>
+<body>
+<div id="top">
+<p id="title">Download Bob, the virtual assistant</p>
+</div>
+<a href="" download>
+<button id="download"> Download</button></a>
+<a href="#info">
+<button class="download" id="right">Learn more</button></a>
+<p id="amount">Bob the virtual assistant for macOS • 23KB download</p>
+<a id="info">
+<p id="how">How to save as an app:<br><br>1. Download the file and open it (it will automatically open in Script Editor)<br>
+2. To run the app out of Script Editor click the play button in the upper right area of the app.<br>3. Click on "File" in the top menu and click on "Save"<br>4. Title the file as "Bob" and select "application" to save it as. *It will probably say that it is an AppleScript file.<br>5. Now it is saved as an app and you can move it to your Applications Folder. Simply click on it to use Bob, the virtual assistant.<br><br><br><br><br><br><br><br></p></a>
+
+</body>
+</html>
