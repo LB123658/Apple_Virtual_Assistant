@@ -1,4 +1,5 @@
 # first question
+display notofication "Bob is listening and will answer 7 questions before shutting down."
 tell application "SpeechRecognitionServer"
 	say "Hello. I am Bob, your virtual assistant. How can I help you?"
 	set one to listen for {"Where is", "look up", "What time is it", "Google", "How are you?", "What's your favorite food", "How old are you?", "email", "fots", "Play a song", "Open maps", "Open finder", "Open iMovie", "Open settings", "Open the app store", "Show me the news", "What's two plus two", "Stop", "I want to use duckduckgo", "Open duckduckgo", "Use duckduckgo instead", "Open wikipedia", "Open youtube", "Open calculator", "Can you help me with math", "Hello", "I'm good", "I'm not feeling great", "Tell me a joke", "Can you laugh", "Open Photos", "Open instagram", "Open facebook", "Open twitter", "Open gmail", "Open google drive", "Open word", "What can you do", "What is my name", "Who made you"} with prompt "I'm listening."
